@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website with PayPal Integration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>
+        <p>Explore our amazing products and services.</p></h1>
+    </header>
+
+    <main>
+        <section id="product-list">
+            <h2>Featured Products</h2>
+            <!-- Your product listing goes here -->
+            <div class="product">
+                <h3>Product 1</h3>
+                <p>Description of Product 1.</p>
+                <p>Price: $10.00</p>
+            </div>
+
+            <div class="product">
+                <h3>Product 2</h3>
+                <p>Description of Product 2.</p>
+                <p>Price: $15.00</p>
+            </div>
+        </section>
+
+        <section id="paypal-section">
+            <h2>Secure Checkout with PayPal</h2>
+            <button id="trigger-payment">Purchase Now</button>
+            <div id="loading-container"><h3>Processing payment...</h3></div>
+            <div id="error-container" ></div>
+            <div id="paypal-button-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID"></script>
+    <script src="script.js"></script>
+</body>
+</html>

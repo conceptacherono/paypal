@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#product-list {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#paypal-section {
+    text-align: center;
+}
+
+#loading-container {
+    display: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#error-container {
+    display: none;
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    /* padding: 1em 0; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
