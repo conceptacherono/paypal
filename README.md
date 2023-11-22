@@ -31,3 +31,10 @@ For more advanced integration options and security considerations, refer to the 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Figma Link
+     https://www.figma.com/file/nCJs8SpEmhmVpCoea0SLgO/ED-Tech-tool?type=design&node-id=0%3A1&mode=design&t=wlaHGOyOQgz63wJU-1
+
+## Fixing Theme Challenge
+     https://docs.google.com/document/d/19bXCNt5k4-j8f-sbEkDNi5O3ZXlqYPfy/edit?usp=drive_link&ouid=104246139785544273590&rtpof=true&sd=true
+
